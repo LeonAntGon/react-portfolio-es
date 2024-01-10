@@ -63,7 +63,7 @@ const Nav = () => {
           </div>
           <ul className="flex space-x-8 lg:space-x-16">
             <li>
-              <Link to="/" className="hover:text-gray-400 transition duration-300">
+              <Link exact to="/" className="hover:text-gray-400 transition duration-300">
                 Casa
               </Link>
             </li>
