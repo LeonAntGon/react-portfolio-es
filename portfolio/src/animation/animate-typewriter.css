@@ -1,0 +1,27 @@
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 65%;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+.typewriter-animation {
+    display: inline-block;
+    white-space: nowrap;
+    border-right: 2px solid;
+    padding-right: 3px;
+    animation: typewriter 2s steps(16), blink 1s infinite step-end alternate;
+    width: auto;
+    /* Para que el borde no se superponga con el texto */
+    overflow: hidden;
+    /* Para ocultar el desbordamiento del borde */
+}

@@ -1,0 +1,7 @@
+.particlesComponent{
+    height: 50rem;
+    position: absolute;
+    width: 100% !important;
+    margin-top: 2rem;
+    background-color: #a9a9f9;
+}
