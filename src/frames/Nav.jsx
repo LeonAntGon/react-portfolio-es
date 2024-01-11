@@ -39,7 +39,8 @@ const Nav = () => {
   return (
     <nav
       style={navStyle}
-      className="py-8 w-full bg-white dark:bg-black text-black dark:text-white z-50 border-b-2"
+      className="py-8 w-full bg-white dark:bg-black text-black dark:text-white z-50 border-b-2
+      px-1"
     >
       <div className="container mx-auto">
         <div className="flex justify-between items-center">

@@ -1,8 +1,8 @@
 import { useContext } from "react";
 import { ThemeContext } from "../context/ThemeContext";
 import "./../animation/animation-fadeInLeft.css";
-import yas from './../assets/yas.png';
-import tesla from './../assets/tesla.png';
+import yas from './../assets/yas.jpeg';
+import tesla from './../assets/tesla.jpeg';
 //*import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const img = [yas, tesla ]

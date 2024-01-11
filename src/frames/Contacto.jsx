@@ -21,7 +21,7 @@ export default function Contacto() {
             animate-fadeInLeft [&>div>h2]:text-xl [&>div>h2]:text-center [&>div>h2]:my-3
             [&>div>p]:my-4 [&>div>p>a]:text-blue-500 ${backgroundClass}
             [&>div>p]:text-sm `}>
-                <div className={`mt-[70px] ${backgroundCard} h-[200px] w-[300px] align-center p-4 rounded-lg`} >
+                <div className={`mt-[70px] ${backgroundCard} h-[220px] w-[300px] align-center p-4 rounded-lg`} >
                     <div className="grid place-items-center">
                        <div className="bg-gray-50 w-[50px] h-[50px] grid place-items-center rounded-md">
                         <img className="w-[30px]" src={mail} />
@@ -34,7 +34,7 @@ export default function Contacto() {
             </div>
             
             
-                <div className={`mt-[70px] ${backgroundCard} h-[200px] w-[300px] align-center p-4 rounded-lg`} >
+                <div className={`mt-[70px] ${backgroundCard} h-[220px] w-[300px] align-center p-4 rounded-lg`} >
                     <div className="grid place-items-center">
                        <div className="bg-gray-50 w-[50px] h-[50px] grid place-items-center rounded-md">
                         <img className="w-[30px]" src={phone} />
