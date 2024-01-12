@@ -1,8 +1,8 @@
 import { useContext } from "react";
 import { ThemeContext } from "../context/ThemeContext";
 import "./../animation/animation-fadeInLeft.css";
-import yas from './../assets/yas.jpeg';
-import tesla from './../assets/tesla.jpeg';
+import yas from './../assets/yas.webp';
+import tesla from './../assets/tesla.webp';
 //*import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const img = [yas, tesla ]
@@ -38,10 +38,10 @@ const Projects = () => {
 
         <section className="flex flex-wrap justify-around mb-10">
         {img.map((img, index) => (
-            <div className={`inline-block min-w-13 min-h-13 max-w-[300px] max-h-[540px]
+            <div className={`inline-block min-w-13 min-h-13 max-w-[290px] max-h-[540px]
             ${backgroundProjects} rounded-lg my-5`} key={index}>
               <div className="w-[275px] h-[368px] mx-2 mt-3">
-              <img className="w-full h-full rounded-lg" src={img} alt="" />
+                 <img className="w-full h-full rounded-lg" src={img} alt="" />
               </div>
               <div className="mx-2">
                 <h2 className={`text-center font-semibold ${textClass}`}>{titles[index]}</h2>

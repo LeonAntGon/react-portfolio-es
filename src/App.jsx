@@ -8,6 +8,7 @@ import Home from "./frames/Home";
 import Proyectos from "./frames/Projects";
 import Contacto from "./frames/Contacto";
 
+
 const App = () => {
   return (
     <ThemeProvider>
