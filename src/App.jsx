@@ -7,6 +7,7 @@ import ThemeSwitch from "./context/ThemeSwitch";
 import Home from "./frames/Home";
 import Proyectos from "./frames/Projects";
 import Contacto from "./frames/Contacto";
+import MyHelmet from "./frames/MyHelmet";
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
     <ThemeProvider>
       <Router>
         <div className="App">
+          <MyHelmet />
           <Nav />
           <ThemeSwitch />
           <Routes>
