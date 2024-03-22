@@ -30,7 +30,7 @@ export default function Contacto() {
                 
                 <h2 className={`${textClass}`}>Email</h2>
                 <p className={`${textClass}`}>Te comparto mi dirección de correo electrónico para que puedas contactarme: </p>
-                <p className={`text-center ${textClass}`} ><a href="mailto:leonarddevweb@gmail.com">leonarddevweb@gmail.com</a></p>
+                <p className={`text-center ${textClass} underline `} ><a className="hover:text-red-600" href="mailto:leonarddevweb@gmail.com">leonarddevweb@gmail.com</a></p>
             </div>
             
             
@@ -43,7 +43,7 @@ export default function Contacto() {
                 
                 <h2 className={`${textClass}`}>Llamame</h2>
                 <p className={`${textClass}`}>Comparto mi número de teléfono para que puedas llamarme y así establecer contacto:</p>
-                <p className={`text-center ${textClass}`} ><a href="tel:+5493380751">+54 9 3380751</a></p>
+                <p className={`text-center ${textClass} underline`} ><a className="hover:text-green-600" href="tel:+5493380751">+54 9 3380751</a></p>
             </div>
             </section>
         </main>

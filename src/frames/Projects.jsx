@@ -3,15 +3,17 @@ import { ThemeContext } from "../context/ThemeContext";
 import "./../animation/animation-fadeInLeft.css";
 import yas from './../assets/yas.webp';
 import tesla from './../assets/tesla.webp';
+import toledo from './../assets/toledo.webp';
 //*import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-const img = [yas, tesla ]
-const titles = ["Yas Lencería", "Tesla"]
+const img = [toledo, yas, tesla ]
+const titles = ["Taller de Joyería Toledo","Yas Lencería", "Tesla"]
 const description = [
+  "Pagina Web para taller de Joyería y reparaciones de joyas",
   "Landing Page para negocio de venta de lencería y ropa interior femenina", 
   "Proyecto a modo de copia de la pagina web de Tesla."]
-const technologies = ["HTML - CSS - JavaScript", "Astro - TailwindCss"]
-const links = ["https://leonantgon.github.io/Yasmin/index.html","https://leonantgon.github.io/Tesla/"]
+const technologies = ["React.JS - TailwindCss","HTML - CSS - JavaScript", "Astro - TailwindCss"]
+const links = ["https://leonantgon.github.io/jewelry/","https://leonantgon.github.io/Yasmin/index.html","https://leonantgon.github.io/Tesla/"]
 
 const Projects = () => {
   const { isDarkTheme } = useContext(ThemeContext);
