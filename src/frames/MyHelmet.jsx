@@ -8,7 +8,7 @@ const MyHelmet = () => {
         <title>Portfolio - Leonardo</title>
         <meta property="og:title" content="Portfolio - Leonardo" />
         <meta property="og:description" content="Sitio web personal" />
-        <meta property="og:image" content="src\assets\Screenshot.png" />
+        <meta property="og:image" content="src/assets/Screenshot.png" />
         <meta property="og:url" content="https://leonardoweb.online/" />
       </Helmet>
     </div>
