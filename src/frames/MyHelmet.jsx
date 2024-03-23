@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet";
-import ogImage from '../assets/Screenshot.png';
+import ogImage from './ogImg/Screenshot.png';
 
 const MyHelmet = () => {
   return (
