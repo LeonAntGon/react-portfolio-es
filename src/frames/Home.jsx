@@ -24,12 +24,12 @@ const Home = () => {
             Hola! Soy Leonardo
           </h1>
 
-          <p
+          <h2
             className={`${textClass} font-semibold animate-fadeIn4 mt-10
             text-2xl md:text-4xl `}
           >
             Soy desarrollador web Front-End
-          </p>
+          </h2>
         </div>
       </div>
     </div>
