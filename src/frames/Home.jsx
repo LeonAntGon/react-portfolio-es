@@ -12,7 +12,7 @@ const Home = () => {
   const textClass = isDarkTheme ? "text-white" : "text-black";
 
   return (
-    <div id="home" className={`h-screen relative ${backgroundClass}`}>
+    <main id="home" className={`h-screen relative ${backgroundClass}`}>
       <ParticlesContainer />
       <div className="flex justify-center items-center h-screen">
         <div
@@ -32,7 +32,7 @@ const Home = () => {
           </h2>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 
